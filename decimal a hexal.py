@@ -1,4 +1,4 @@
-numero = 8
+numero = 9
 if numero == 0:
     print("0")
 else:
