@@ -9,3 +9,4 @@ if primo==1:
     print("El numero es primo")
 if primo==0:
     print("El numero no es primo")
+                                                                                                         
