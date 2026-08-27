@@ -14,11 +14,10 @@ if es_primo == True:
     b = 1
     while a < numero:
       siguiente = a + b
-      a = b
-      b = siguiente
+      a = b; b = siguiente
     if a == numero:
-       print("Esta en Fibonacci") 
+       print("Está en Fibonacci") 
     else: 
-       print("No esta en Fibonacci")
+       print("No está en Fibonacci")
 else:
    print("No es primo")       
