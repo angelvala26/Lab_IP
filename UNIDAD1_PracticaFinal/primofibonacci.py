@@ -1,3 +1,5 @@
+#Angel Valadez Torres
+
 numero = int(input("Leer numero:"))
 es_primo = True
 if numero <= 1:
@@ -7,14 +9,15 @@ else:
     while i < numero:
         if numero % i == 0:
           es_primo = False
+          break
         i = i+1
 if es_primo == True: 
     print ("Es primo")
-    a = 0
-    b = 1
+    a = 0; b = 1
     while a < numero:
       siguiente = a + b
-      a = b; b = siguiente
+      a = b
+      b = siguiente
     if a == numero:
        print("Está en Fibonacci") 
     else: 
