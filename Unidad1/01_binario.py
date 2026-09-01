@@ -1,4 +1,4 @@
-numero = 8 
+numero = 8
 if numero == 0:
     print("0")
 binario = ""
